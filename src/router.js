@@ -3,7 +3,7 @@ import createHistory from 'history/createHashHistory';
 const history = createHistory({ hashType: 'slash' });
 
 history.listen(function (location, action) {
-    console.log(location, aaa, '========');
+    console.log(location, '========');
     console.log(history.length)
 });
 
